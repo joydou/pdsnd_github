@@ -7,10 +7,10 @@
 Project Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+Analyse the data from the bikeshare database 
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
