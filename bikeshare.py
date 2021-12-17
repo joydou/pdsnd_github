@@ -17,7 +17,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input("Would you like to see data for Chicago, New York, or Washington?").lower()
    
     while city not in ["chicago", "new york", "washington"]:
@@ -26,7 +26,7 @@ def get_filters():
     
     if city =="new york":
         city = "new york city"
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # get user input for month (all, january, february, ... , june)
     month = input("Which month - January, February, March, April, May, or June(or type all for all the months)?").lower()
     
     while month not in ["january", "february", "march", "april", "may", "june","all"]:
@@ -34,7 +34,7 @@ def get_filters():
         month = input("Please enter the right month: ").lower()          
     
     
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # get user input for day of week (all, monday, tuesday, ... sunday)
     day = input("Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday(or type all for all the days of week)?").lower()
     
     while day not in ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "all"]:
