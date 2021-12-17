@@ -80,7 +80,7 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day]        
     
-    df['combination'] = df['Start Station'] + " - to - " + df['End Station']
+    df['combination'] = df['Start Station'] + " - - - " + df['End Station']
     return df
 
 
